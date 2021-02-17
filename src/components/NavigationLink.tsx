@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Text, StyleSheet } from 'react-native'
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native'
 import { Icon } from 'react-native-elements'
 
 interface NavigationLinkProps{
@@ -10,11 +10,13 @@ interface NavigationLinkProps{
 
 export const NavigationLink: React.FC<NavigationLinkProps> = ({title, iconName, iconSolid}) => {
     return (
+        <TouchableOpacity>
         <View style={styles.naviagionLink}>
             <Icon name={iconName} type='font-awesome-5' solid={iconSolid} color='#99A2AD'/>
             <Text style={styles.title}>{title}</Text>
             <Icon name='chevron-right' type='font-awesome-5' color='#99A2AD' size={18}/>
         </View>
+        </TouchableOpacity>
     )
 } 
 

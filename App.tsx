@@ -9,8 +9,8 @@ export default function App() {
   return (
     <ThemeProvider>
     <View style={styles.container}>
-      {/* <Settings/> */}
-      <Profile/>
+      <Settings/>
+      {/* <Profile/> */}
     </View>
     </ThemeProvider>
   );

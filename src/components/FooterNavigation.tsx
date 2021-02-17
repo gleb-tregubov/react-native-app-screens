@@ -1,11 +1,15 @@
 import React from 'react'
-import { View, Text, StyleSheet } from 'react-native'
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native'
 
 export const FooterNavigation: React.FC = () => {
     return (
         <View style={styles.footerNavigation}>
-            <Text style={styles.text} >Выйти</Text>
-            <Text style={styles.text} >Удалить аккаунт</Text>
+            <TouchableOpacity>
+                <Text style={styles.text} >Выйти</Text>
+            </TouchableOpacity>
+            <TouchableOpacity>
+                <Text style={styles.text} >Удалить аккаунт</Text>
+            </TouchableOpacity>
         </View>
     )
 }
