@@ -1,8 +1,8 @@
 import React from 'react';
 import { StyleSheet, Text, View, ScrollView } from 'react-native';
 import {ThemeProvider} from 'react-native-elements'
-import { Profile } from './src/screens/Profile';
-import { Settings } from './src/screens/Settings';
+import { Profile } from './src_/screens/Profile';
+import { Settings } from './src_/screens/Settings';
 
 
 export default function App() {
