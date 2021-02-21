@@ -14,4 +14,4 @@ const styles = StyleSheet.create({
         backgroundColor: '#ccc',
         alignSelf: 'center'
     },
-}) 
+})
