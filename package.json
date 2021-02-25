@@ -7,12 +7,14 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "build:ios": "react-native bundle --entry-file='index.js' --bundle-output='./ios/main.jsbundle' --dev=false --platform='ios'"
   },
   "dependencies": {
     "react": "16.11.0",
     "react-native": "0.62.2",
     "react-native-elements": "^3.2.0",
+    "react-native-navigation": "^7.11.0",
     "react-native-safe-area-context": "^3.1.9",
     "react-native-vector-icons": "^8.0.0"
   },

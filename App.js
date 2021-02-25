@@ -9,7 +9,7 @@ export default function App() {
   return (
     <ThemeProvider>
     <View style={styles.container}>
-      <Settings/>
+      {/* <Settings/> */}
       {/* <Profile/> */}
     </View>
     </ThemeProvider>
